@@ -88,11 +88,14 @@ const Menu = styled.div`
 `;
 
 const NewElectroChat = styled(Button)`
-    background-color: whitesmoke;
     width: 90%;
     font-size: 2vh;
-    :hover{
+    &&& {
+        background-color: whitesmoke;
+    }
+    &&&:hover {
         color: #00f7f3;
+        background-color: transparent;
     }
 `;
 
