@@ -62,7 +62,7 @@ import CloseIcon from '@material-ui/icons/Close';
           <IconButton>    
             <CloseIcon onClick={() => setNchatPopup(false)} />  
           </IconButton>
-                <Input value={input} onInput={(e) => setInput(e.target.value)} border={border} onSubmit={createChat} />
+                <Input value={input} onInput={(e) => setInput(e.target.value)} border={border} onSubmit={createChat}  placeholder="Entrez un mail" />
                 <NewChatButton onClick={createChat}> Nouveau E-CHat </NewChatButton>
           </Container>
       )
